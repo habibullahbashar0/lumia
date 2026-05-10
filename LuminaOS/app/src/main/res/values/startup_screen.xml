@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Startup screen configuration -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Splash screen configuration for Android 12+ -->
+    <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher</item>
+    <item name="android:windowSplashScreenBackground">@color/background_color</item>
+    <item name="android:windowSplashScreenAnimationDuration">1000</item>
+    <item name="android:windowSplashScreenBrandingImage">@drawable/ic_launcher</item>
+</PreferenceScreen>

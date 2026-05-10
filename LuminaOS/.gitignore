@@ -1,0 +1,61 @@
+# Gradle files
+.gradle
+build
+.gradletasknamecache
+
+# LOCAL DEVELOPMENT ENVIRONMENT
+.DS_Store
+
+# Android Studio
+.idea
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IntelliJ
+out/
+*.iml
+*.map.json
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# flutter
+/flutter/.dart_tool/
+/flutter/.flutter-plugins
+/flutter/.flutter-plugins-dependencies
+/flutter/.packages
+/flutter/.pub-cache/
+/flutter/.pub/
+/flutter/build/
+/flutter/flutter_*.png
+/flutter/linked_hash_map.dart
+/flutter/local.properties
+/flutter/pubspec.lock
+
+# Android Studio will place build artifacts here
+app/debug
+app/release
+
+# Compiled files
+*.dex
+
+# Java compiled files
+*.class
+
+# Python pycache
+__pycache__/
+
+# Misc
+*.log
+.env
+local.properties
+/local.properties
